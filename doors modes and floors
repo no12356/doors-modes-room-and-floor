@@ -1,0 +1,74 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "modez (most doesn't work)", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+OrionLib:MakeNotification({
+	Name = "WARNING!",
+	Content = "Alrighty Player, be careful of what you do , Be careful because if you get banned. its not my fault.",
+	Image = "rbxassetid://4483345998",
+	Time = 10
+})
+
+local Tab = Window:MakeTab({
+	Name = "Hardcore modez",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "mqe",
+	Callback = function()
+      		print("button pressed") loadstring(game:HttpGet("https://glot.io/snippets/gp5pu59o7f/raw"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Crucifix",
+	Callback = function()
+      		print("button pressed") loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Functions.lua"))()
+LoadCustomInstance("https://github.com/RegularVynixu/Utilities/raw/main/Doors/Item%20Spawner/Assets/Crucifix.rbxm").Parent = game:GetService("Players").LocalPlayer.Backpack
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Hard Mode",
+	Callback = function()
+      		print("button pressed") loadstring(game:HttpGet("https://raw.githubusercontent.com/MuhXd/DoorSuff/main/DoorsModes/HardMode(Multplayer%2CProtected).lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Floor 2",
+	Callback = function()
+      		print("button pressed") loadstring(game:HttpGet("https://raw.githubusercontent.com/MuhXd/Doors/main/Floor%202%20Mod"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "lottery :0",
+	Callback = function()
+      		print("button pressed") loadstring(game:HttpGet("https://github.com/MuhXd/DoorSuff/blob/main/CustomRoom/DoorsLotteryRoom.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "fragmented mode :0",
+	Callback = function()
+      		print("button pressed") loadstring(game:HttpGet("https://glot.io/snippets/gpw1ypnl5o/raw/main.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Fear Mode",
+	Callback = function()
+      		print("button pressed") loadstring(game:HttpGet("https://raw.githubusercontent.com/cool59572/freestuff/main/Fear_mode_multiplayer.lua"))()
+  	end    
+})
+
+OrionLib:MakeNotification({
+	Name = "Creditz :D",
+	Content = "all creditz go to icherrykardes, Viper (MuhammadGames) and TheJabiss. theres more but im too bored",
+	Image = "rbxassetid://4483345998",
+	Time = 10
+})
+
+OrionLib:Init()
